@@ -1,0 +1,21 @@
+package day11;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Dog d = new Dog();
+		d.display();
+		
+		Dog d1 = new Dog("진돗개","백구");
+		d1.display();
+
+		Dog d2 = new Dog("강아지과","진돗개","백구");
+		d2.display();
+		
+		
+		
+	}
+
+}
